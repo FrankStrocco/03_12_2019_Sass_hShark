@@ -6,6 +6,26 @@ figure {
     display: flex;
     flex-direction: column;
 }
+/*
+navigation
+*/
+nav.nav {
+	width: 100%;
+	display: inline-block;
+}
+nav.nav a{
+	display: inline-block;
+}
+ul {
+	display: inline-block;
+}
+nav img {
+	height: 25px;
+	vertical-align: middle;
+	justify-content: flex-start;
+
+
+}
 img {
     width: 100%;
 }
@@ -39,7 +59,6 @@ a:hover, a:active {
 	text-decoration: none;
 }
 #wrapper {
-	margin: 0 auto;
 	background-color: #3B8686;
     display: flex;
     flex-direction: column;
