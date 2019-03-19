@@ -1,8 +1,76 @@
 // base element styles
 
 body
-    margin: 0 auto
 
-#wrappper
-    max-width: 1200px
+    background-color: $mainBgColor
+main
+    max-width: 1100px
     margin: 0 auto
+    font-family: helvetica, sans-serif
+    display: flex
+header
+    background-color: $mainBgColor
+    padding: 0
+    h1
+        padding: 0
+p
+    padding: 0 15px 15px 15px
+    font-size: 12px
+h1, h2
+    padding: 15px 0 0 15px
+    font-family: $freckleFont
+
+article
+    margin: 0 auto
+    background-color: #fff
+    color: #333
+    width: 66.66%
+    float: left
+    & h1
+        color: black
+        font-size: 2.2em
+    & h2
+        color: $asideBgColor
+figure
+    figcaption
+        text-align: right
+        font-size: 10px
+        color: #666
+        font-style: italic
+        padding: 0 15px
+        margin-top: -7px
+
+img
+    width: 100%
+    object-fit: fill
+aside
+    color: #fff
+    width: 33.33%
+    background-color: $asideBgColor
+    padding: 0
+    margin: 0
+    float: right
+    & h1
+        font-size: 1.3em
+    & div
+        border-bottom: 2px solid #fff
+
+footer
+    background-color: $primaryColor
+    text-align: center
+    padding: 15px 0
+    clear: both
+
+@media only screen and (max-width: 600px)
+    main
+        display: block
+    article
+        width: 100%
+        h1
+            font-size: 2em
+    aside
+        width: 100%
+
+    figure
+        figcaption
+            text-align: center

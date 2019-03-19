@@ -1,0 +1,60 @@
+nav
+    padding: 10px 0
+    background-color: $primaryColor
+    margin-bottom: 1px
+    font-family: helvetica, sans-serif
+    font-size: .8em
+    img
+        height: 25px
+        width: 25px
+        vertical-align: middle
+        i
+            font-size: .8em
+ul
+    float: right
+    li
+        display: inline-block
+
+a
+    color: black
+a:link
+    text-decoration: none
+    padding: 10px
+    color: black
+.active
+    background-color: #9ed3c2
+
+
+
+@media only screen and (max-width: 600px)
+    nav
+        padding: 10px 0
+        background-color: $primaryColor
+        margin-bottom: 1px
+        button
+            display: inline-block
+            background-color: #f8f8f8
+            height: 45px
+            width: 55px
+            border: solid 2px #A9A9A9
+            border-radius: 5px
+            float: right
+            margin-right: 15px
+            .topLine, .midLine, .botLine
+                height: 3px
+                width: 30px
+                margin: 4px
+                margin-left: 10px
+                background-color: #A9A9A9
+                align-items: center
+        li
+            display: none
+        img
+            height: 25px
+            display: inline-block
+
+    a:link
+        text-decoration: none
+        padding: 10px
+        color: black
+        display: inline-block

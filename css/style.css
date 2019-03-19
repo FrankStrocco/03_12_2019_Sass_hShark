@@ -9,14 +9,18 @@ figure {
 /*
 navigation
 */
-nav.nav {
-	width: 100%;
-	display: inline-block;
-}
-nav.nav a{
-	display: inline-block;
+nav {
+
 }
 ul {
+	float: right;
+}
+.navUl li {
+	display: inline-block;
+	text-decoration: none;
+
+}
+.navbarContent ul {
 	display: inline-block;
 }
 nav img {
@@ -26,14 +30,8 @@ nav img {
 
 
 }
-img {
-    width: 100%;
-}
 figcaption {
     align-self: center;
-}
-img {
-    width: 100%;
 }
 body {
 	background-color: #42413C;
